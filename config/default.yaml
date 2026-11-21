@@ -1,0 +1,25 @@
+process:
+  exe_name: CombatMaster.exe
+  build_id: latest
+
+esp:
+  team_filter: true
+  my_team: 0
+  box_style: corner
+
+aim_assist:
+  fov_px: 180
+  smoothing: 3.5
+  bone: head
+
+recoil:
+  enabled: true
+  pattern: ak
+  strength: 0.35
+
+overlay:
+  refresh_hz: 120
+  font: Consolas
+
+input:
+  toggle_key: f4
