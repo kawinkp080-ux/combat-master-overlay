@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0a0c10"/>
+  <g>
+    <!-- Outer crosshair ring fragments -->
+    <path d="M128 32 L128 52 M128 204 L128 224 M32 128 L52 128 M204 128 L224 128" stroke="#e8f1f2" stroke-width="3" stroke-linecap="square"/>
+    <path d="M76 76 L90 90 M180 76 L166 90 M76 180 L90 166 M180 180 L166 166" stroke="#e8f1f2" stroke-width="3" stroke-linecap="square"/>
+    <!-- Outer ring with break -->
+    <path d="M128 48 A80 80 0 0 1 208 128 L192 128 A64 64 0 0 0 128 64 Z" fill="none" stroke="#e8f1f2" stroke-width="3"/>
+    <path d="M208 128 A80 80 0 0 1 128 208 L128 192 A64 64 0 0 0 192 128 Z" fill="none" stroke="#e8f1f2" stroke-width="3"/>
+    <path d="M128 208 A80 80 0 0 1 48 128 L64 128 A64 64 0 0 0 128 192 Z" fill="none" stroke="#e8f1f2" stroke-width="3"/>
+    <path d="M48 128 A80 80 0 0 1 128 48 L128 64 A64 64 0 0 0 64 128 Z" fill="none" stroke="#e8f1f2" stroke-width="3"/>
+    <!-- Inner reticle brackets -->
+    <path d="M100 100 L112 100 L112 112" fill="none" stroke="#ff3b30" stroke-width="4" stroke-linecap="square"/>
+    <path d="M156 100 L144 100 L144 112" fill="none" stroke="#ff3b30" stroke-width="4" stroke-linecap="square"/>
+    <path d="M100 156 L112 156 L112 144" fill="none" stroke="#ff3b30" stroke-width="4" stroke-linecap="square"/>
+    <path d="M156 156 L144 156 L144 144" fill="none" stroke="#ff3b30" stroke-width="4" stroke-linecap="square"/>
+    <!-- Center dot -->
+    <circle cx="128" cy="128" r="5" fill="#ff3b30"/>
+    <!-- Crosshair lines through center with gaps -->
+    <path d="M128 78 L128 116" stroke="#ff3b30" stroke-width="3"/>
+    <path d="M128 140 L128 178" stroke="#ff3b30" stroke-width="3"/>
+    <path d="M78 128 L116 128" stroke="#ff3b30" stroke-width="3"/>
+    <path d="M140 128 L178 128" stroke="#ff3b30" stroke-width="3"/>
+    <!-- Jagged circuit-trace shard slicing through -->
+    <path d="M36 90 L70 90 L82 78 L110 106 L122 94 L148 148 L162 136 L196 170 L208 158 L226 176" fill="none" stroke="#39ff88" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M36 90 L46 90 M70 90 L80 90 M110 106 L118 106 M148 148 L156 148 M196 170 L204 170" stroke="#39ff88" stroke-width="5" stroke-linecap="square"/>
+    <!-- Circuit nodes -->
+    <rect x="66" y="86" width="8" height="8" fill="#39ff88"/>
+    <rect x="146" y="144" width="8" height="8" fill="#39ff88"/>
+    <rect x="200" y="162" width="8" height="8" fill="#39ff88"/>
+    <!-- Crack lines overlaying reticle -->
+    <path d="M128 100 L118 116 L132 128 L120 148 L128 160" fill="none" stroke="#e8f1f2" stroke-width="1.5" stroke-linecap="square"/>
+    <path d="M108 110 L118 116" stroke="#e8f1f2" stroke-width="1.5" stroke-linecap="square"/>
+    <path d="M132 128 L146 124" stroke="#e8f1f2" stroke-width="1.5" stroke-linecap="square"/>
+    <!-- Glitch offset bars -->
+    <rect x="40" y="120" width="14" height="4" fill="#ff3b30"/>
+    <rect x="202" y="132" width="14" height="4" fill="#ff3b30"/>
+    <rect x="120" y="42" width="4" height="14" fill="#39ff88"/>
+    <rect x="132" y="200" width="4" height="14" fill="#39ff88"/>
+    <!-- Mil-spec stencil cue corners -->
+    <path d="M24 24 L40 24 M24 24 L24 40" stroke="#e8f1f2" stroke-width="2"/>
+    <path d="M232 24 L216 24 M232 24 L232 40" stroke="#e8f1f2" stroke-width="2"/>
+    <path d="M24 232 L40 232 M24 232 L24 216" stroke="#e8f1f2" stroke-width="2"/>
+    <path d="M232 232 L216 232 M232 232 L232 216" stroke="#e8f1f2" stroke-width="2"/>
+    <!-- Tiny wordmark stencil -->
+    <text x="128" y="244" font-family="monospace" font-size="7" font-weight="bold" fill="#e8f1f2" text-anchor="middle" letter-spacing="3">COMBAT MASTER</text>
+  </g>
+</svg>
